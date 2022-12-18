@@ -1,0 +1,9 @@
+Installation:
+    - npm init -> is to create a package.json file. This is a Node project.
+    - npm i express cors dotenv mongodb -> to isntall:
+        - Express
+        - The Node bindings for MongoDB
+        - Cors, a library for handling CORS (cross-origin resource sharing) requests
+        - Dotenv, a library to enable us to use a .env file to hold parameters for our program
+In package.json
+    - Adding "type": "module" will enable Node.js to use the import syntax throughout the project.
